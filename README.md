@@ -22,14 +22,6 @@ This is a Phase 3 prototype for a Laboratory Order Management System designed to
 
 ## Installation Instructions
 
-### Step 1: Install PHP
-
-1. Download the latest version of PHP from [https://windows.php.net/download](https://windows.php.net/download).
-2. Choose the "Non Thread Safe" `.zip` version for your system (x64 or x86).
-3. Extract the contents to a folder, for example: `C:\php`
-4. Add `C:\php` to your system's `PATH` environment variable:
-   - Open Start menu## Installation
-
 ### Step 1: Install XAMPP
 
 1. Download XAMPP from [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html). Download version 8.2.12 or higher
