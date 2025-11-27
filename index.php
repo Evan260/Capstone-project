@@ -27,11 +27,11 @@ if ($user->isLoggedIn()) {
                 <a href="index.php">
                     <span class="logo-icon">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9 3V10L6 14V21H18V14L15 10V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M9 3H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            <path d="M6 14H18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            <circle cx="10" cy="17" r="1" fill="currentColor"/>
-                            <circle cx="14" cy="17" r="1" fill="currentColor"/>
+                            <path d="M9 3V10L6 14V21H18V14L15 10V3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 3H15" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M6 14H18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="10" cy="17" r="1" fill="#fff"/>
+                            <circle cx="14" cy="17" r="1" fill="#fff"/>
                         </svg>
                     </span>
                     <?php echo APP_NAME; ?>
@@ -43,7 +43,7 @@ if ($user->isLoggedIn()) {
                 <a href="#about">About</a>
             </nav>
             <div class="landing-header-actions">
-                <a href="login.php" class="btn btn-outline">Log In</a>
+                <a href="login.php" class="btn btn-outline-white">Log In</a>
                 <a href="register.php" class="btn btn-white">Get Started</a>
             </div>
             <button class="mobile-menu-btn" id="mobileMenuBtn">
@@ -84,7 +84,7 @@ if ($user->isLoggedIn()) {
                 <a href="register.php" class="btn btn-primary btn-large">
                     Start Free Trial
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </a>
                 <a href="#how-it-works" class="btn btn-ghost btn-large">
@@ -165,9 +165,9 @@ if ($user->isLoggedIn()) {
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            <rect x="9" y="3" width="6" height="4" rx="1" stroke="currentColor" stroke-width="2"/>
-                            <path d="M9 12h6M9 16h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                            <rect x="9" y="3" width="6" height="4" rx="1" stroke="#fff" stroke-width="2"/>
+                            <path d="M9 12h6M9 16h6" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
                         </svg>
                     </div>
                     <h3>Order Management</h3>
@@ -176,9 +176,9 @@ if ($user->isLoggedIn()) {
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9 3V10L6 14V21H18V14L15 10V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M9 3H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            <path d="M6 14H18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M9 3V10L6 14V21H18V14L15 10V3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 3H15" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M6 14H18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
                         </svg>
                     </div>
                     <h3>Sample Tracking</h3>
@@ -187,9 +187,9 @@ if ($user->isLoggedIn()) {
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
-                            <path d="M16 2v4M8 2v4M3 10h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            <path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <rect x="3" y="4" width="18" height="18" rx="2" stroke="#fff" stroke-width="2"/>
+                            <path d="M16 2v4M8 2v4M3 10h18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
                         </svg>
                     </div>
                     <h3>Queue Management</h3>
@@ -198,8 +198,8 @@ if ($user->isLoggedIn()) {
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" stroke="currentColor" stroke-width="2"/>
-                            <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" stroke="#fff" stroke-width="2"/>
+                            <path d="M12 6v6l4 2" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
                         </svg>
                     </div>
                     <h3>Real-time Updates</h3>
@@ -208,9 +208,9 @@ if ($user->isLoggedIn()) {
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="9" cy="7" r="4" stroke="#fff" stroke-width="2"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
                         </svg>
                     </div>
                     <h3>Role-Based Access</h3>
@@ -219,8 +219,8 @@ if ($user->isLoggedIn()) {
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 3v18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 3v18h18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
                     <h3>Analytics & Reports</h3>
@@ -285,25 +285,25 @@ if ($user->isLoggedIn()) {
                     <ul class="about-list">
                         <li>
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 6L9 17l-5-5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             Secure and reliable platform
                         </li>
                         <li>
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 6L9 17l-5-5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             Intuitive user interface
                         </li>
                         <li>
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 6L9 17l-5-5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             Comprehensive order tracking
                         </li>
                         <li>
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 6L9 17l-5-5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             Professional support team
                         </li>
@@ -314,9 +314,9 @@ if ($user->isLoggedIn()) {
                     <div class="about-card">
                         <div class="about-card-icon">
                             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9 3V10L6 14V21H18V14L15 10V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M9 3H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                                <path d="M6 14H18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M9 3V10L6 14V21H18V14L15 10V3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 3H15" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M6 14H18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
                             </svg>
                         </div>
                         <h4>Professional Lab Services</h4>
@@ -350,9 +350,9 @@ if ($user->isLoggedIn()) {
                         <a href="index.php">
                             <span class="logo-icon">
                                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9 3V10L6 14V21H18V14L15 10V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M9 3H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                                    <path d="M6 14H18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M9 3V10L6 14V21H18V14L15 10V3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9 3H15" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M6 14H18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
                                 </svg>
                             </span>
                             <?php echo APP_NAME; ?>
