@@ -22,32 +22,28 @@ This is a Phase 3 prototype for a Laboratory Order Management System designed to
 
 ## Installation Instructions
 
-### Step 1: Install XAMPP
+### Step 1: Install Laragon
 
-1. Download XAMPP from [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html). Download version 8.2.12 or higher
-2. Install XAMPP (default location: `C:\xampp`)
-3. Open XAMPP Control Panel and start Apache and MySQL
-4. Add PHP to your system PATH:
-   - Open Start menu and search for "Environment Variables"
-   - Edit the `Path` variable and add `C:\xampp\php`
-5. Open Command Prompt and run `php -v` to verify PHP is installed
+1. Download Laragon from [https://laragon.org/download/](https://laragon.org/download/)
+2. Install Laragon (default location: `C:\laragon`)
+3. Open Laragon and click **Start All** to start Apache and MySQL
 
-### Step 2: Install Composer
+### Step 2: Install Composer (you can skip this step because we are currently not using any packages)
 
 1. Download and install Composer from [https://getcomposer.org/](https://getcomposer.org/)
-2. During installation, make sure it detects your `php.exe` from `C:\xampp\php`
+2. During installation, make sure it detects your `php.exe` from `C:\laragon\bin\php\php-8.3.26-Win32-vs16-x64`
 3. Restart your computer to finish installing Composer
 4. Open Command Prompt and run `composer -V` to verify Composer is installed
 
 ### Step 3: Set Up the Project
 
-1. Place the project files directly in XAMPP's `htdocs` directory: `C:\xampp\htdocs\project-phase-3`
+1. Place the project files directly in Laragon's `www` directory: `C:\laragon\www\project-phase-3`
    - The folder name will become part of your URL (e.g., folder `project-phase-3` → URL `localhost/project-phase-3`)
    - Avoid spaces in the folder name
 2. Open Command Prompt and navigate to that directory:
 
 ```bash
-cd C:\xampp\htdocs\project-phase-3
+cd C:\laragon\www\project-phase-3
 ```
 
 3. Run the following command to install PHP dependencies:
@@ -62,39 +58,34 @@ This will download all required dependencies into the `vendor/` folder.
 
 You need to create a MySQL database and import the schema.
 
-**What is phpMyAdmin?** phpMyAdmin is a web-based tool that comes with XAMPP/WAMP/MAMP that lets you manage MySQL databases through a visual interface.
+**What is HeidiSQL?** HeidiSQL is a database management tool that comes with Laragon. It lets you manage MySQL databases through a visual interface (similar to phpMyAdmin).
 
-1. **Open phpMyAdmin**:
-   - Open your web browser
-   - Go to: `http://localhost/phpmyadmin`
-   - You should see the phpMyAdmin interface
+1. **Open HeidiSQL**:
+   - In Laragon, click the **Database** button
+   - HeidiSQL will open and connect automatically
 
 2. **Create the Database**:
-   - Click on **"New"** in the top Left
-   - In the "Create database" section, type: `sales_tracker`
-   - Click **"Create"**
+   - Right-click in the left sidebar
+   - Select **Create new → Database**
+   - Name it: `globentech_db`
+   - Click **OK**
 
 3. **Import the Schema**:
-   - Click on the **"sales_tracker"** database name in the left sidebar (it should now appear in the list)
-   - Click on the **"Import"** tab at the top
-   - Click **"Choose File"** button
-   - Navigate to your sales-tracker-website folder and select: `mysql_schema.sql`
-   - Scroll down and click **"Import"** button at the bottom
-   - You should see a success message and 7 tables created
+   - Click on the **globentech_db** database in the left sidebar
+   - Go to **File → Run SQL file...**
+   - Navigate to your project folder and select: `mysql_schema.sql`
+   - The tables will be created automatically
 
 4. **Verify the Import**:
-   - Click on the **"Structure"** tab
-   - You should see all the tables
-
-### Step 5: Set Up Local Email Sending
-
-When running the GlobenTech website locally on XAMPP, PHP's `mail()` function won't work without a mail server. You can set up a fake SMTP server that catches all emails locally and displays them in a web interface using MailHog. You can find the instructions to set this up [In this document](https://github.com/Evan260/project-phase-3/blob/main/read-me/Local%20email%20setup.md).
+   - Expand the **globentech_db** database in the left sidebar
+   - You should see all the tables listed
 
 ## Running Locally
 
-1. Open XAMPP Control Panel and start Apache and MySQL
-2. Navigate to `http://localhost/project-phase-3` in your browser (adjust the folder name if different)
+1. Open Laragon and click **Start All**
+2. Navigate to http://localhost/project-phase-3 in your browser (adjust the folder name if different)
 3. The website should now be running locally
+4. To view emails sent by the application, open http://localhost:8025
 
 ## Default Credentials
 
